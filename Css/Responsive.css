@@ -1,0 +1,439 @@
+@media (max-width:1300px) {
+    .navRight .navItems {
+        width: 65%;
+    }
+}
+
+
+
+@media (max-width:992px) {
+    .navRight .navItems {
+        width: 65%;
+    }
+
+    .navRight .navItems ul {}
+
+    .Hero-Area .banner span button {
+        width: 20%;
+
+    }
+
+    .Highlight-tshirt .d-flex {
+        display: block;
+    }
+
+    .Highlight-tshirt .card {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .lates-News-Section .Post-card {
+        width: 45%;
+    }
+
+    .Shop-our-gear .item {
+        width: 47%;
+        display: inline-block;
+        margin: 80px 5px;
+    }
+
+    footer .FooterNav .socialIcons {
+        width: 15%;
+    }
+
+
+
+    footer .logo img {
+        width: 10%;
+
+    }
+
+
+    .navRight .navItems {
+        width: 70%;
+    }
+
+    footer .FooterNav nav {
+        width: 75%;
+    }
+
+    footer .FooterNav nav ul {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+
+    }
+
+}
+
+@media (min-width:768px) {
+    .navRight .Mobile-navItems {
+        display: none;
+    }
+}
+
+
+
+
+
+
+/* Tab Responsive */
+
+@media (max-width:768px) {
+    .navRight .navItems {
+        display: none;
+    }
+
+    .navRight .navIcons {
+        display: block;
+        position: relative;
+        right: 20px;
+        top: 20px;
+    }
+
+    .navRight .navIcons span {
+        display: flex;
+    }
+
+    .navRight .navIcons span li {
+        margin: 0px 10px;
+    }
+
+    #times {
+        cursor: pointer;
+    }
+
+    .navRight .Mobile-navItems .navItems {
+        display: block;
+    }
+
+    .navRight .Mobile-navItems {
+        width: 100%;
+        height: 110vh;
+        background-color: var(--Black);
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 55555;
+        position: fixed;
+        overflow-y: scroll;
+        display: none;
+    }
+
+
+
+    /* /////////     Mobile Responsive Nav  ///////////// */
+
+    .Mobile-navItems .logo img {
+        width: 70px;
+    }
+
+    .Mobile-navItems>ul {
+        width: 90%;
+        height: 450px;
+        display: block;
+        position: relative;
+        top: 12%;
+        margin: 0 auto;
+        height: fit-content;
+        text-align: center;
+        overflow-y: scroll;
+    }
+
+    .Mobile-navItems>ul li {
+        line-height: 30px;
+        border-bottom: .5px solid var(--TextAss);
+    }
+
+    .Mobile-navItems>ul li img {
+        width: 15px;
+    }
+
+    .Mobile-navItems ul li a {
+        font-size: 20px;
+        line-height: 55px;
+        position: relative;
+        color: var(--TextAss);
+
+    }
+
+    .Mobile-navItems>ul li {
+        position: relative;
+        justify-content: center;
+    }
+
+    .Mobile-navItems ul li:hover ul {
+        width: 100%;
+        height: fit-content;
+        display: block;
+        text-align: center;
+        background-color: var(--Black);
+        overflow-y: scroll;
+        padding: 25px 0;
+    }
+
+    .Mobile-navItems>ul ul li {
+        border-bottom: none;
+    }
+
+    .Mobile-navItems>ul ul li a {
+        line-height: 40px;
+        font-size: 17px;
+        padding: 10px 0;
+        border-bottom: .5px solid var(--White);
+        color: var(--White);
+    }
+
+    .Mobile-navItems>ul ul {
+        display: none;
+    }
+
+    #times {
+        width: 50px;
+    }
+
+
+    .Mobile-navItems ul li {
+        position: relative !important;
+    }
+
+    .Mobile-navItems .iconsImage {
+        width: 15%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 0;
+        margin: 50px auto;
+        text-align: center;
+    }
+
+
+
+    .Mobile-navItems .iconsImage img {
+        padding: 10px;
+    }
+
+    /* mobile menu Responsive design end.... */
+
+
+
+
+
+    .navRight .Mobile-navItems .logo {
+        position: absolute;
+        top: 15px;
+        left: 30px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .navRight .Mobile-navItems span {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        width: 30px;
+        height: 30px;
+        display: flex;
+    }
+
+    .navRight .Mobile-navItems span img {
+        width: 50%;
+    }
+
+
+    .Hero-Area .banner span button {
+        width: 30%;
+
+    }
+
+    .lates-News-Section .Post-card {
+        width: 100%;
+        margin: 10px auto;
+        background-position: top center;
+    }
+
+    .Shop-our-gear .heading {
+        width: 60%;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: var(--TextAss);
+    }
+
+    .Shop-our-gear .item {
+        width: 100%;
+        margin: 80px auto;
+        height: 350px;
+    }
+
+    .Product-Slide .Product-card span {
+        position: relative;
+        top: 50%;
+        font-size: 20px;
+    }
+
+    .Shop-our-gear .Product-Slide .product {
+        width: 70%;
+        height: 50%;
+        position: absolute;
+        top: -28%;
+        left: 16%;
+        text-align: center;
+
+    }
+
+    .Shop-our-gear .Product-Slide .product img {
+        width: 70%;
+        object-fit: cover;
+    }
+
+
+    .meet-ourTeam-setion .Team {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    footer .InstaFollowing .FollowButton {
+        width: 42%;
+        justify-content: right;
+        text-align: right;
+    }
+
+    footer .FooterNav .socialIcons {
+        width: 25%;
+    }
+
+    footer .FooterNav nav {
+        width: 100%;
+        margin: 25px 0;
+        border-top: .5px solid var(--TextAss);
+        padding: 15px 0;
+    }
+
+    footer .FooterNav nav ul {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+
+    }
+
+    footer .FooterNav nav li a {
+        font-size: 13px;
+
+
+    }
+
+
+}
+
+
+/* mobile Responsive */
+
+@media (max-width:576px) {
+    .logo img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .navIcons img {
+        width: 18px;
+    }
+
+    .Hero-Area .banner span button {
+        width: 42%;
+    }
+
+    .lates-News-Section a button {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .Shop-our-gear .heading {
+        width: 80%;
+    }
+
+    .Shop-our-gear .Product-Slide .product {
+        width: 70%;
+        height: 50%;
+        position: absolute;
+        top: -28%;
+        left: 10%;
+        text-align: center;
+
+    }
+
+    .Shop-our-gear .Product-Slide .product img {
+        width: 90%;
+
+    }
+
+    .Follow-the-action .actionVideo iframe {
+        width: 100%;
+        height: 350px;
+    }
+
+    .actionVideo footer .InstaFollowing .FollowButton {
+        width: 50%;
+        justify-content: right;
+        text-align: right;
+    }
+
+    footer .InstaFollowing .FollowButton button {
+        width: 80%;
+        padding: 8px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    footer .InstaFollowing .Insta img {
+        width: 50px;
+        height: 100%;
+        margin-top: -10px;
+
+    }
+
+    footer .InstaPhotos {
+        display: none;
+    }
+
+    .InstaFollowing .text {
+        width: 60%;
+        font-size: 14px;
+    }
+
+    .InstaFollowing .text h3 {
+        font-size: 14px;
+    }
+
+    footer .FooterNav nav li a {
+        font-size: 13px;
+        margin: 0px 5px;
+    }
+
+    footer .FooterNav .socialIcons {
+        width: 30%;
+    }
+
+    footer .footerlogo .logo {
+        margin: 15px 0;
+    }
+
+    footer .footerlogo .logo img {
+        width: 20%;
+        height: 100%;
+        margin: 10px 0;
+
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2,
+    h3 {
+        font-size: 22px;
+    }
+}
