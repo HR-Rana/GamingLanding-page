@@ -342,6 +342,10 @@
         width: 18px;
     }
 
+    .Branding-logos span img {
+        width: 100px;
+    }
+
     .Hero-Area .banner span button {
         width: 42%;
     }
