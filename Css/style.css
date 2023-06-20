@@ -306,7 +306,9 @@ header .logo {
 }
 
 
-
+.Mobile-navItems {
+    display: none;
+}
 
 
 /*  ///////////  Hero area  ////////////*/
@@ -579,28 +581,28 @@ header .logo {
 }
 
 .lates-News-Section .Post-card.first {
-    background-image: url('/Images/News/news\ \(1\).png');
+    background-image: url('../Images/News/news\ \(1\).png');
 }
 
 .lates-News-Section .Post-card.second {
-    background-image: url('/Images/News/news\ \(2\).png');
+    background-image: url('../Images/News/news\ \(2\).png');
 
 }
 
 .lates-News-Section .Post-card.third {
-    background-image: url('/Images/News/news\ \(3\).png');
+    background-image: url('../Images/News/news\ \(3\).png');
 }
 
 .lates-News-Section .Post-card.fouth {
-    background-image: url('/Images/News/news\ \(4\).png');
+    background-image: url('../Images/News/news\ \(4\).png');
 }
 
 .lates-News-Section .Post-card.fiveth {
-    background-image: url('/Images/News/news\ \(5\).png');
+    background-image: url('../Images/News/news\ \(5\).png');
 }
 
 .lates-News-Section .Post-card.sixth {
-    background-image: url('/Images/News/news\ \(6\).png');
+    background-image: url('../Images/News/news\ \(6\).png');
 
 }
 
